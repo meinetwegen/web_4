@@ -1,0 +1,45 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f7f6;
+}
+
+.custom-header {
+    background-color: #0F6B5F;
+}
+
+.custom-card {
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(15, 107, 95, 0.1);
+}
+
+.custom-pill-group {
+    background-color: #e9ecef;
+    border-radius: 50rem;
+}
+
+.custom-pill-group .btn-outline-success {
+    border: none;
+    color: #16302B;
+}
+
+.custom-pill-group .btn-check:checked + .btn-outline-success {
+    background-color: #0F6B5F;
+    color: #ffffff;
+    border-radius: 50rem;
+}
+
+.btn-warning {
+    background-color: #F2A93B;
+    border-color: #F2A93B;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-warning:hover {
+    background-color: #e09833;
+    border-color: #e09833;
+    transform: translateY(-2px);
+}
+
+.input-group-text {
+    background-color: #0F6B5F;
+}
