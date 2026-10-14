@@ -1,0 +1,9 @@
+input:user-invalid ~ .invalid-feedback,
+select:user-invalid ~ .invalid-feedback,
+textarea:user-invalid ~ .invalid-feedback {
+    display: block;
+}
+
+input:user-valid {
+    border-color: #198754;
+}
